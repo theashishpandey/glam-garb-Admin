@@ -1,0 +1,37 @@
+.disabled-field{
+background-color:  rgb(204, 198, 198) !important; 
+}
+.button-wrapper{
+    position: absolute;
+    background: #a8aeae96;
+    min-width: 100px;
+    min-height: 100px;
+}
+#status {
+    width: 37% !important;
+    height: 40px !important;
+    position: absolute !important;
+    left: 35%!important;
+    top: 25% !important;
+    margin: -20px 0 0 -20px !important;
+}
+
+
+
+.img-btn{
+    background: #ea3b3bcc;
+    border: 0px;
+    min-width: 100px;
+    min-height: 20px;
+    bottom: 0;
+    position: absolute;
+}
+.order-status-select{
+    
+    min-width: 200px !important;
+    left: 30% !important;
+    top: 10px !important;
+}
+.partial-charges-offline,.assembly-charges-offline{
+    top:25px
+}

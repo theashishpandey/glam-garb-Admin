@@ -1,0 +1,164 @@
+@import "./icons.scss";
+
+// Dark Theme
+// @import "./bootstrap-dark.scss";
+// @import "./app-dark.scss";
+
+// RTL Mode
+// @import "./bootstrap.scss";
+// @import "./app-rtl.scss";
+
+// @if $circle {
+//   border-radius: $size / 2;
+// }
+
+// Light Theme
+@import "./bootstrap.scss";
+@import "./app.scss";
+
+#sidebar-menu {
+  ul {
+    li {
+      a {
+        i {
+          min-width: 2rem;
+        }
+      }
+    }
+  }
+}
+.noti-icon .badge {
+  left: 23px;
+}
+.dataTables_filter,
+.dataTables_paginate {
+  float: right;
+}
+.rdw-editor-main {
+  border: 1px solid $gray-300;
+  height: 239px;
+}
+.dz-message {
+  text-align: center;
+  padding: 30px;
+}
+// kanban board
+.fcYNFc,
+.sc-AxmLO.gmtmqV {
+  background-color: $card-bg !important;
+  margin: 0 20px 0 0 !important;
+}
+.task-box {
+  border: 1px solid $border-color;
+}
+.react-datepicker-wrapper {
+  width: 100% !important;
+}
+.ReactModal__Overlay {
+  z-index: 1001 !important;
+}
+.chat-conversation .right .conversation-list {
+  margin-right: 15px;
+}
+.external-event {
+  &:hover {
+    cursor: pointer;
+  }
+}
+a:hover {
+  cursor: pointer;
+}
+.rating-container {
+  background-color: transparent !important;
+}
+.input-group-append {
+  z-index: 0;
+}
+.input-color {
+  color: $input-color !important;
+}
+.sketch-picker {
+  position: absolute;
+  z-index: 1;
+}
+.rangeslider__fill {
+  background-color: $primary !important;
+}
+.login-page-gradient {
+  background: linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 1) 0%,
+    rgba(215, 215, 215, 1) 74%,
+    rgba(228, 228, 228, 1) 83%,
+    rgba(228, 228, 228, 1) 100%
+  );
+  min-height: 300px;
+}
+.login-form-group {
+  padding: 0 20%;
+  margin-top: 7%;
+}
+.input-icons-n {
+  width: 100%;
+}
+.icon {
+  padding-right: 12px;
+  border-right: 0;
+  border-left: 1px solid #dddddd;
+}
+.fa-user:before {
+  content: "\f007";
+}
+.input-icons-n input {
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  border-radius: 2.5rem;
+  height: 55px;
+  font-size: 16px;
+  padding-right: 42px;
+  padding-left: 0;
+  text-align: right;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+}
+.login-form-group button {
+  height: 55px;
+  border-radius: 2.5rem;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #999999;
+  border: 1px solid #dddddd;
+  width: 50%;
+}
+.icon-style {
+  padding-right: 12px;
+  border-right: 0;
+  border-left: 1px solid #dddddd;
+  min-width: 32px;
+  font-size: 15px;
+  color: #999999;
+  margin-top: 22px;
+  position: absolute;
+}
+.icon-style-ltr {
+  position: absolute;
+  margin-top: 10px;
+  padding-left: 12px;
+  height: 36px;
+  border-left: 0;
+  border-right: 1px solid #dddddd;
+  padding-top: 10px;
+}
+
+.input-icons-n-ltr input {
+  border: 1px solid #dddddd;
+  background-color: #ffffff;
+  border-radius: 2.5rem;
+  height: 55px;
+  font-size: 16px;
+  padding-right: 0;
+  padding-left: 42px;
+  text-align: left;
+}
